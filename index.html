@@ -4,37 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Torcaza Argentina</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/cropped-torcaza-transparente-1-210x140.jpg">
+    <link rel="stylesheet" href="styles.css" />
+     <link rel="icon" href="assets/cropped-torcaza-transparente-1-210x140.jpg">
   </head>
   <body>
-    <header class="container_header_computer">
-      <nav class="container_nav">
-        <a href="#principio" class="logo">
-          <img
-            class="logo_img"
-            src="assets/cropped-torcaza-transparente-1-210x140.jpg"
-            alt="logoLaTorcaza"
-          />
-        </a>
-        <ul class="container_ul_links">
-          <li class="li_links">
-            <a class="anchor_nav" href="#inicio">Inicio</a>
+    <header class="header_container">
+      <img
+        class="header_logo"
+        src="assets/cropped-torcaza-transparente-1-210x140.jpg"
+        alt="Logo"
+      />
+      <nav class="nav_container">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a class="nav_link" href="#inicio">Inicio</a>
           </li>
-          <li class="li_links">
-            <a class="anchor_nav" href="#experiencia">Experiencias</a>
+          <li class="nav_item">
+            <a class="nav_link" href="#experiencia">Experiencias</a>
           </li>
-          <li class="li_links">
-            <a class="anchor_nav" href="#ubication">Ubicación</a>
+          <li class="nav_item">
+            <a class="nav_link" href="#ubication">Ubicación</a>
           </li>
-          <li class="li_links">
-            <a class="anchor_nav" href="#contacto">Contacto</a>
+          <li class="nav_item">
+            <a class="nav_link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </nav>
     </header>
-    <header class="container_header_movile" id="container_header_movile">
-      <a href="#inicio" class="logo_movile">
+    <header class="header_container_movile" id="header_container_movile">
+      <a href="#inicio" class="header_logo_movile">
         <img
           class="logo_img_movile"
           src="assets/cropped-torcaza-transparente-1-210x140.jpg"
@@ -47,49 +45,57 @@
         <span class="line"></span>
         <span class="line"></span>
       </label>
-      <ul class="container_ul_links_movile">
-        <li class="li_links_movile">
-          <a class="anchor_nav" href="#inicio">Inicio</a>
+      <ul class="nav_list_movile">
+        <li class="nav_item_movile">
+          <a class="nav_link_movile" href="#inicio">Inicio</a>
         </li>
-        <li class="li_links_movile">
-          <a class="anchor_nav" href="#experiencia">Experiencias</a>
+        <li class="nav_item_movile">
+          <a class="nav_link_movile" href="#experiencia">Experiencias</a>
         </li>
-        <li class="li_links_movile">
-          <a class="anchor_nav" href="#ubication">Ubicación</a>
+        <li class="nav_item_movile">
+          <a class="nav_link_movile" href="#ubication">Ubicación</a>
         </li>
-        <li class="li_links_movile">
-          <a class="anchor_nav" href="#contacto">Contacto</a>
+        <li class="nav_item_movile">
+          <a class="nav_link_movile" href="#contacto">Contacto</a>
         </li>
       </ul>
     </header>
-    <main class="container_main">
-      <section class="section_background_image" id="principio"></section>
-      <article class="container_article_main">
-        <section class="section_article_texts">
-          <div class="section_div_h1">
-            <h1 class="h1_global">Vive la experiencia de caza en Torcaza</h1>
-          </div>
-          <div class="section_div_info" id="inicio">
-            <img class="img_section" src="assets/imgsobrenosotros.webp" alt="" />
-            <div class="info">
-              <h2 class="h2_global">Sobre nosotros</h2>
-              <p class="info_parraf">
-              Somos un equipo de apasionados cazadores que encontró en Argentina un lugar único, 
-              no solo por la calidez de su gente y su cultura, sino también por la riqueza de su 
-              flora y fauna, que se mantiene intacta en vastos territorios aún inexplorados.
-              Hoy queremos invitarte a vivir una experiencia de caza menor inigualable, en un entorno natural 
-              privilegiado, donde cada jornada se convierte en un recuerdo inolvidable.
-              Estamos convencidos de que, una vez que caces con nosotros, desearás volver a
-              repetir esta aventura.
-              </p>
+    <main class="main_container">
+      <section class="hero_container">
+        <div class="hero_content">
+          <h1 class="h1_global">Vive la experiencia de caza en Torcaza</h1>
+          <p class="global_p">
+            Disfrutá de experiencias únicas en contacto con la naturaleza.
+          </p>
+          <div class="wrapper">
+            <div class="button_container">
+              <a class="action_btn" href="#inicio">Sobre Nosotros</a>
             </div>
           </div>
-        </section>
-      </article>
-      <article class="article_experiences">
-        <div class="info">
-          <h2 class="h2_global" id="experiencia">Experiencias</h2>
-          <p class="info_parraf_experiences">
+        </div>
+      </section>
+      <section class="info_section" id="inicio">
+        <div class="container_info_global">
+          <div class="separator_sections">
+            <h2 class="h2_global">Conócenos</h2>
+            <p class="global_p color_p">
+              Somos un equipo de apasionados cazadores que encontró en Argentina
+              un lugar único, no solo por la calidez de su gente y su cultura,
+              sino también por la riqueza de su flora y fauna, que se mantiene
+              intacta en vastos territorios aún inexplorados. Hoy queremos
+              invitarte a vivir una experiencia de caza menor inigualable, en un
+              entorno natural privilegiado, donde cada jornada se convierte en
+              un recuerdo inolvidable. Estamos convencidos de que, una vez que
+              caces con nosotros, desearás volver a repetir esta aventura.
+            </p>
+          </div>
+          <img class="img_global" src="assets/imgsobrenosotros.webp" alt="" />
+        </div>
+      </section>
+      <section class="info_section" id="experiencia">
+        <div class="separator_sections">
+          <h2 class="h2_global">Experiencias</h2>
+          <p class="global_p color_p">
             Viví la emoción de la caza menor en un entorno natural único.
             Nuestro coto ofrece escenarios ideales para la práctica deportiva,
             con especies como patos, tórtolas y perdices. Siempre acompañado por
@@ -98,113 +104,89 @@
             tradición, camaradería y contacto directo con la naturaleza.
           </p>
         </div>
-        <section class="experiences_section_images">
-          <img class="img_caza" src="assets/caza1.webp" alt="tiroconescopeta" />
-          <img class="img_caza" src="assets/cazapatos.webp" alt="canoa" />
-          <img class="img_caza" src="assets/lancha.webp" alt="lancha" />
-          <img class="img_caza" src="assets/tortolas.webp" alt="cazatórtolas" />
-        </section>
-        <section class="videos_torcaza">
-          <div class="info_experiences">
-            <h2 class="h2_global">No te pierdas nuestros vídeos</h2>
-            <span class="span_global"
-              >Y adéntrate en una experiencia de caza en Argentina con
-              Torcaza</span
-            >
+        <div class="images_galery">
+          <img
+            id="main_image"
+            class="img_main_carousel"
+            src="assets/tortolas.webp"
+            alt=""
+          />
+          <div class="img_list">
+            <img class="images_carousel" src="assets/lancha.webp" alt="" />
+            <img class="images_carousel" src="assets/caza1.webp" alt="" />
+            <img class="images_carousel" src="assets/cazapatos.webp" alt="" />
           </div>
-          <div class="container_videos">
-            <iframe
-              class="videos"
-             src="https://www.youtube.com/embed/Udu4PE6mRMQ?si=1O7E2u6JYxqfWW9b" 
-             title="YouTube video player" frameborder="0" 
-             allow="accelerometer; autoplay; clipboard-write; 
-             encrypted-media; gyroscope; picture-in-picture; web-share" 
-             referrerpolicy="strict-origin-when-cross-origin" 
-             allowfullscreen>
-            </iframe>
-            <iframe
-              class="videos"
-              src="https://www.youtube.com/embed/UV5iQJRHZug?si=ZXDrv79iCDTtKK6y"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </section>
-      </article>
-      <article class="article_ubication" id="ubication">
-        <section class="article_section_ubication">
-          <div class="info_ubication_texts">
+        </div>
+      </section>
+      <section class="info_section">
+        <div class="separator_sections">
+          <h2 class="h2_global">No te pierdas nuestros videos</h2>
+        </div>
+        <div class="videos_container">
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/UV5iQJRHZug?si=OIDv8sP6-pIq3Ej6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/Udu4PE6mRMQ?si=PPtms8jbzq5kF0aw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="territory_section" id="ubication">
+        <div class="separator_sections">
             <h2 class="h2_global">Territorio de caza</h2>
-            <p class="ubication_parraf">
+            <p class="global_p color_p">
               Situado en el triángulo de las ciudades de Añatuya, Santiago del
               Estero, Pinto y Córdoba, esta extensa zona agrícola combina
               armoniosamente un alto nivel de confort con la autenticidad de la
               naturaleza
             </p>
+            <div class="container_btn">
+              <a
+                class="btn_maps"
+                href="https://www.google.com/maps/dir//-28.8219167,-62.8874444/@-28.8219167,-62.8874444,16z?entry=ttu&g_ep=EgoyMDI1MDkxNi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                >📍 Ver en Google Maps</a
+              >
+            </div>
+        </div>
+        <img class="img_global" src="assets/territoro.webp" alt="" />
+      </section>
+
+      <section class="info_section">
+        <div class="separator_sections">
+          <h2 class="h2_global">Colaboramos con prestigiosas empresas del mundo de la caza</h2>
+          <div class="logos_companies_container">
+            <img class="logos" src="assets/Caza-y-Pesca-700x700.webp" alt="">
+            <img class="logos" src="assets/cinegética-logo-700x700.webp" alt="">
+            <img class="logos" src="assets/Domaine-de-la-Lijarderie-700x700.webp" alt="">
+            <img class="logos" src="assets/Faisa-dOr-1-700x700.webp" alt="">
+            <img class="logos" src="assets/iberalia-700x700.webp" alt="">
+            <img class="logos" src="assets/novatoma-1-700x700.webp" alt="">
           </div>
-          <img class="img_territory" src="assets/territoro.webp" alt="" />
-        </section>
-        <section class="map">
-          <iframe
-            class="ubication"
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3495.5687271200227!2d-62.890030124492135!3d-28.821923275561907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQ5JzE4LjkiUyA2MsKwNTMnMTQuOCJX!5e0!3m2!1ses!2sar!4v1755665518418!5m2!1ses!2sar"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </section>
-      </article>
-      <section class="companies">
-        <h2 class="h2_global">
-          Colaboramos con prestigiosas empresas del mundo de la caza
-        </h2>
-        <div class="container_img_companies">
-          <img
-            src="assets/iberalia-700x700.webp"
-            alt="iberalia"
-            class="img_caza"
-          />
-          <img
-            src="assets/novatoma-1-700x700.webp"
-            alt="novatoma"
-            class="img_caza"
-          />
-          <img
-            src="assets/Faisa-dOr-1-700x700.webp"
-            alt="faisador"
-            class="img_caza"
-          />
-          <img
-            src="assets/Domaine-de-la-Lijarderie-700x700.webp"
-            alt="domainedelalijarderie"
-            class="img_caza"
-          />
-          <img
-            src="assets/cinegética-logo-700x700.webp"
-            alt="cinegética"
-            class="img_caza"
-          />
-          <img
-            src="assets/Caza-y-Pesca-700x700.webp"
-            alt="cazaypesca"
-            class="img_caza"
-          />
         </div>
       </section>
-      <article class="article_contact" id="contacto">
-        <div class="contact_info">
-          <h1 class="h1_global">¿Quieres saber más?</h1>
+     <section class="info_section_contact" >
+        <div class="contact_info" >
+          <h1 class="h2_global">¿Quieres saber más?</h1>
           <span class="span_global"
             >Contacta ahora con nosotros y no esperes más para planificar una
             escapada de caza inigualable.</span
           >
         </div>
-        <a class="btn_contact" href="https://wa.me/5493482645667?text=Hola%20quiero%20más%20información%20sobre%20las%20experiencias%20de%20caza"" target="_blank">CONTÁCTANOS</a>
-      </article>
+        <a class="btn_contact" id="contacto" href="https://wa.me/5493482645667?text=Hola%20quiero%20más%20información%20sobre%20las%20experiencias%20de%20caza"" target="_blank">CONTÁCTANOS</a>
+     </section>
     </main>
     <footer class="container_footer">
       <div class="footer_info">
@@ -229,10 +211,6 @@
         <span class="span_footer">Copyright © 2025 La Torcaza</span> <p>| Desarrollado por <a class="spam" href="https://www.linkedin.com/in/luciano-gahn-benitez-b65814250/" target="_blank">Luciano Gahn Benitez</a></p>
       </div>
     </footer>
-    <div id="modal" class="modal">
-      <span class="close" id="close">&times;</span>
-      <img class="modal-content" id="modal-img" />
-    </div>
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
