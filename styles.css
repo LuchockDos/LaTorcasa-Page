@@ -99,12 +99,15 @@
   background-attachment: fixed;
 }
 .hero_container::before {
-  content: "";
-  position: absolute;
   width: 100%;
   height: 100vh;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 
 .hero_container > * {
   position: relative;
@@ -481,4 +484,8 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+}
+
+html, body {
+  overflow-x: hidden;
 }
