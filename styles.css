@@ -6,7 +6,7 @@
   text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+html, body { scroll-behavior: smooth;} 
 .h1_global {
   font-size: 60px;
   text-align: center;
